@@ -1,19 +1,12 @@
-# Metabase
+<p align="center"><img src="logo.png" alt="metabase" width="120"></p>
 
-<p align="center"><img src="logo.png" alt="Metabase" width="120"></p>
-
-
-[![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com)
-[![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/metabase/actions)
-[![License](https://img.shields.io/github/license/stackblaze-templates/metabase)](LICENSE)
+# Metabase [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/metabase/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/metabase)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 An open-source business intelligence and analytics tool. Beautiful dashboards and visualizations without writing SQL.
 
 > **Credits**: Built on [Metabase](https://metabase.com) by [Metabase](https://github.com/metabase). All trademarks belong to their respective owners.
 
 ## Deploy on StackBlaze
-
-[![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 This template includes a `stackblaze.yaml` for one-click deployment on [StackBlaze](https://stackblaze.com).
 
