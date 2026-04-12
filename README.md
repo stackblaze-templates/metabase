@@ -1,6 +1,6 @@
-<p align="center"><img src="logo.png" alt="metabase" width="120"></p>
-
 # Metabase [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/metabase/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/metabase)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
+
+<p align="center"><img src="logo.png" alt="metabase" width="120"></p>
 
 An open-source business intelligence and analytics tool. Beautiful dashboards and visualizations without writing SQL.
 
