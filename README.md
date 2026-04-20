@@ -91,7 +91,28 @@ flowchart LR
 
 ---
 
-### Maintained by [StackBlaze](https://stackblaze.com)
+## Security
+
+### Required environment variables
+
+Before running in production, set the following in your `.env` file (copy from `.env.example`):
+
+| Variable | Description |
+|---|---|
+| `MB_DB_PASS` | Password for the Metabase PostgreSQL user — **must be strong and unique** |
+| `POSTGRES_PASSWORD` | PostgreSQL superuser password — **must be strong and unique** |
+
+The `stackblaze.yaml` deployment automatically generates `MB_ENCRYPTION_SECRET_KEY` (used to encrypt sensitive data stored in the Metabase database). For local development, set it manually to a random 32-character string.
+
+### Insecure defaults
+
+- The `docker-compose.yml` reads passwords from environment variables; no password is shipped. Copy `.env.example` to `.env` and set strong values before starting the stack.
+- Metabase forces an admin-account setup wizard on first run — no default admin credentials are pre-set.
+- Do **not** expose port `3000` directly to the public internet without a TLS-terminating reverse proxy in front of it.
+
+---
+
+
 
 This template is actively maintained by StackBlaze. We perform **weekly automated checks** to ensure:
 

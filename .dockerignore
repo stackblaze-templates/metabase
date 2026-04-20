@@ -1,0 +1,11 @@
+.env
+.env.*
+.git
+.gitignore
+node_modules
+*.pem
+*.key
+*.p12
+*.pfx
+README.md
+logo.png
